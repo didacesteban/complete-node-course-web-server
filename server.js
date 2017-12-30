@@ -1,3 +1,10 @@
+/*
+In order to deploy in heroku:
+  - Heroku create
+  - git push heroku (first you shoud push in git)
+  -heroku open
+*/
+
 const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
